@@ -531,7 +531,7 @@ if(!message.channel.guild) return message.channel.send('**this command to server
   if(!message.member.hasPermission('MANAGE_MESSAGES')) return      message.channel.send('**you do not have perm** `MANAGE_MESSAGES`' );
     let say = new Discord.RichEmbed()
     .setDescription(args.join("  "))
-    .setColor('#FFFF00')
+    .setColor("#FFD700")
     message.channel.sendEmbed(say);
     message.delete();
     
